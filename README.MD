@@ -6,7 +6,7 @@
 
 Esse projeto é uma Api que ultiliza **Java, Spring Boot 3 e H2 como database.**
 
-Essa API foi desenvolvida para akan usando Java Spring boot 3.
+Essa API foi desenvolvida para Ekan usando Java Spring boot 3.
 
 ## Table of Contents
 
