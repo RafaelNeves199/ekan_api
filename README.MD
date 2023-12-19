@@ -26,8 +26,8 @@ git clone https://github.com/RafaelNeves199/ekan_api.git
 
 2. Instale as dependencias com o maven
 
-mvn clean install
-mvn spring-boot:run
+1. mvn clean install
+2. mvn spring-boot:run
 
 ## Usando
 
@@ -40,7 +40,7 @@ mvn spring-boot:run
 ## API Endpoints
 Essa API prove os seguintes endpoints:
 
-**Authentication Login**
+**Login**
 ```markdown
 POST /api/auth/login - Efetue o login com usuário já cadastrado para receber o token. user: ekan - password: 12345
 ```
@@ -51,9 +51,9 @@ POST /api/auth/login - Efetue o login com usuário já cadastrado para receber o
 }
 ```
 
-**Authentication Registrar**
+**Registrar**
 ```markdown
-POST /api/auth/registrar - api para registrar usuários que vao usar o sistema.
+POST /api/auth/registrar - Endpoint para registrar usuários que vao usar o sistema.
 ```
 ```json
 {
@@ -65,7 +65,7 @@ POST /api/auth/registrar - api para registrar usuários que vao usar o sistema.
 
 **GET BENEFICIARIOS**
 ```markdown
-GET /api/beneficiarios - Traz uma lista com todos os beneficiários.
+GET /api/beneficiarios - Endpoint que Traz uma lista com todos os beneficiários.
 ```
 ```json
 [
@@ -90,7 +90,7 @@ GET /api/beneficiarios - Traz uma lista com todos os beneficiários.
 
 **POST BENEFICIARIOS**
 ```markdown
-POST /api/beneficiarios - Register um novo beneficiário com seus documentos
+POST /api/beneficiarios - Endpoint para registrar um novo beneficiário com seus documentos
 ```
 ```json
 {
@@ -108,7 +108,7 @@ POST /api/beneficiarios - Register um novo beneficiário com seus documentos
 
 **PUT BENEFICIARIOS**
 ```markdown
-PUT /api/beneficiarios/{id} - Atualizar Beneficiario
+PUT /api/beneficiarios/{id} - Endpoint para atualizar o Beneficiario
 ```
 
 ```json
@@ -125,14 +125,14 @@ PUT /api/beneficiarios/{id} - Atualizar Beneficiario
 }
 ```
 
-**DELETE BENEFICIARIO**
+**`DELETE BENEFICIARIO`**
 ```markdown
-DELETE /api/beneficiarios/{id} - Deletar Beneficiario
+DELETE /api/beneficiarios/{id} - Endpoint para deletar Beneficiario
 ```
 
 **GET DOCUMENTOS BENEFICIARIO**
 ```markdown
-get /api/beneficiarios/{idBeneficiario}/documentos - Listar todos os documentos de um beneficiário a partir de seu id
+get /api/beneficiarios/{idBeneficiario}/documentos - Endpoint para listar todos os documentos de um beneficiário a partir de seu id
 ```
 
 ## Database
