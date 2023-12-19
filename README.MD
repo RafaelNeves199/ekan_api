@@ -39,8 +39,9 @@ git clone https://github.com/RafaelNeves199/ekan_api.git
 
 ## API Endpoints
 Essa API prove os seguintes endpoints:
+**`Autenticação`**
 
-**Login**
+**`Login`**
 ```markdown
 POST /api/auth/login - Efetue o login com usuário já cadastrado para receber o token. user: ekan - password: 12345
 ```
@@ -51,7 +52,7 @@ POST /api/auth/login - Efetue o login com usuário já cadastrado para receber o
 }
 ```
 
-**Registrar**
+**`Registrar`**
 ```markdown
 POST /api/auth/registrar - Endpoint para registrar usuários que vao usar o sistema.
 ```
@@ -63,7 +64,9 @@ POST /api/auth/registrar - Endpoint para registrar usuários que vao usar o sist
 }
 ```
 
-**GET BENEFICIARIOS**
+**`Beneficiarios API`**
+
+**`GET BENEFICIARIOS`**
 ```markdown
 GET /api/beneficiarios - Endpoint que Traz uma lista com todos os beneficiários.
 ```
@@ -88,7 +91,7 @@ GET /api/beneficiarios - Endpoint que Traz uma lista com todos os beneficiários
 ]
 ```
 
-**POST BENEFICIARIOS**
+**`POST BENEFICIARIOS`**
 ```markdown
 POST /api/beneficiarios - Endpoint para registrar um novo beneficiário com seus documentos
 ```
@@ -106,7 +109,7 @@ POST /api/beneficiarios - Endpoint para registrar um novo beneficiário com seus
 }
 ```
 
-**PUT BENEFICIARIOS**
+**`PUT BENEFICIARIOS`**
 ```markdown
 PUT /api/beneficiarios/{id} - Endpoint para atualizar o Beneficiario
 ```
