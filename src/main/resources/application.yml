@@ -1,0 +1,32 @@
+server:
+  port: 8080
+
+api:
+  security:
+    token: Hkdfknod93ytL1
+
+spring:
+  application:
+    name: beneficiario-api
+  datasource:
+    url: jdbc:h2:mem:planosaudedb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: password
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: update
+      show-sql: true
+    properties:
+      hibernate:
+        column_ordering_strategy: legacy
+        format_sql: true
+        show_sql: true
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+
+
+
