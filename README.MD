@@ -4,7 +4,7 @@
 ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
 [![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
 
-Esse projeto é uma Api que ultiliza **Java, Java Spring, H2 as the database.**
+Esse projeto é uma Api que ultiliza **Java, Spring Boot 3 e H2 como database.**
 
 Essa API foi desenvolvida para akan usando Java Spring boot 3.
 
